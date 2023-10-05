@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/fav.png" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="logo">LOGO</h1>
+      <ul class="nav_list">
+        <li>Aboot</li>
+        <li>Services</li>
+        <li>Clients</li>
+        <li>Contact</li>
+      </ul>
+
+      <img
+        src="/images/menu.png"
+        alt="menu_icon"
+        class="menu"
+        height="25px"
+        onclick="openNav()"
+      />
+    </div>
+
+    <div class="main">
+      <div class="text">
+        <h1 class="first">Aquick trip</h1>
+        <h1 class="second">Into Nature</h1>
+        <h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex incidunt
+          dolorum dignissimos sed voluptatibus saepe vitae eveniet, accusamus
+          aliquam adipisci.
+        </h4>
+        <button class="button">See More</button>
+      </div>
+
+      <div class="img">
+        <img src="/images/illustration.png" alt="illustration" class="img" />
+      </div>
+    </div>
+
+    <div class="overlay" id="" myNav>
+      <a href="javacript:void(0)" class="closebtn" onclick="closeNav()">
+        &times;
+      </a>
+
+      <div class="overlay_cpntent">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
